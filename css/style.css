@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+.lines1{
+    transition: .5s;
+}
+.lines1 img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: .5s;
+}
+.darkmode-ignore{
+    z-index: 700;
+}
+.darkmode-layer, .darkmode-toggle {
+    z-index: 500;
+}
